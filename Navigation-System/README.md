@@ -10,13 +10,13 @@ The marker system is used for placing HUD markers showing where a waypoint targe
  - Toggle distance information
  - Edge of screen "dead-space" for off-screen waypoints
  
- ### Compass System
+ ### [Compass System](CompassSystem.cs)
  The compass system is used to show the direction the camera is pointing along with markers indicating the direction to various waypoints.
 
- ### Minimap System
+ ### [Minimap System](MinimapSystem.cs)
  The minimap system shows a top-down view of the area surrounding the player.  It is meant to be synced with a radar system.
 
-### Radar System
+### [Radar System](RadarSystem.cs)
 The radar system is meant to be synced with a minimap.  It will show the direction the player is facing as well as the location of different waypoints around the player.  It supports several customization options:
 
 - Custom size to show larger or smaller areas
